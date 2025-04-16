@@ -1,0 +1,10 @@
+proc main(): i8 {
+	s := "World";
+	print_hello s;
+
+	return 0;
+}
+
+proc print_hello(s: string) {
+	printf("Hello {}!", s);
+}
